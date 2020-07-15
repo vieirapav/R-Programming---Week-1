@@ -25,13 +25,25 @@ y <- c("a", TRUE) #character
 class(x)
 [1] "integer"
 
-as.numeric(x) #converte para numerico
+
+#converte para numerico
+
+as.numeric(x) 
+
 [1] 0 1 2 3 4 5 6
 
-as.logical(x) #converte para logico
+
+#converte para logico
+
+as.logical(x) 
+
 [1] FALSE TRUE TRUE TRUE TRUE TRUE TRUE
 
-as.character(x) #converte para caracter
+
+#converte para caracter
+
+as.character(x) 
+
 [1] "0" "1" "2" "3" "4" "5" "6"
 
 ---LISTAS---
