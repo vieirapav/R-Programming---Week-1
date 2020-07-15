@@ -7,6 +7,7 @@ Matrizes são vetores com duas dimensões (e por isso só possuem elementos de u
   Como criar uma mtriz:
   
 >m <- matrix(nrow = 2, ncol = 3)
+
 >m
       [,1] [,2] [,3]
 [1,]   NA   NA   NA
@@ -19,6 +20,7 @@ $dim
 #Com **attribtes(m)** é possivel decobrir A **dimensão = dim** da matriz de "m".
 
 >m <- matrix(1:6, nrow = 2, ncol = 3)
+
 >m
       [,1] [,2] [,3]
 [1,]   1     3    5
@@ -32,10 +34,13 @@ $dim
   1° Adicionar uma dimensão no vetor:
 
 >p <- 1:10
+
 >p
+
 [1] 1 2 3 4 5 6 7 8 9 10
 
 >dim(p) <- c(2, p5) 
+
 > p
      [,1] [,2] [,3] [,4] [,5]
 [1,]    1    3    5    7    9
@@ -48,6 +53,7 @@ A funçăo **dim()** retorna a dimensăo do objeto.
     
     
 > r <- 1:3
+
 > s <- 10:12
 
 #cria **coluna** "r" e "s"
