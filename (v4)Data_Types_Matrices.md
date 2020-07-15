@@ -1,10 +1,11 @@
----Tipos de Matriz---
+         
+    ---Tipos de Matriz---
 
 
 Matrizes são vetores com duas dimensões (e por isso só possuem elementos de uma mesma classe).
 
   
-  Como criar uma mtriz:
+    Como criar uma mtriz:
   
 >m <- matrix(nrow = 2, ncol = 3)
 
@@ -28,10 +29,10 @@ $dim
 
 #Ao determinar a sequencia e o n° de colunas e linhas essa é a maneira que os valores irão se ajustar
 
----Outras formas de criar matriz---
+    ---Outras formas de criar matriz---
   
   
-  1° Adicionar uma dimensão no vetor:
+    1°Adicionar uma dimensão no vetor
 
 >p <- 1:10
 
