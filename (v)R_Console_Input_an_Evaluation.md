@@ -12,8 +12,8 @@ Acrescentar valor, usar **<-**.
 Todos os objetos que criados estarão disponíveis na aba Environment
 
 Para revelar o valor armazenado em **x**:
- **print(x)** ou **x**
- O valor sera exibido na tela
+ **print(x)** ou **x**.
+O valor sera exibido na tela
  
  --Funções--
  
