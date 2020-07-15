@@ -1,6 +1,6 @@
 --Objetos(variáveis)--
 
-Acrescentar valor, usar *<-*.
+Acrescentar valor, usar **<-**.
 
 1Ex.: x <- 1
 1Ex: msg <- "Hello World"
@@ -10,8 +10,8 @@ Acrescentar valor, usar *<-*.
 
 Todos os objetos que criados estarão disponíveis na aba Environment
 
-Para revelar o valor armazenado em "x":
- *print(x)* ou *x*
+Para revelar o valor armazenado em **x**:
+ **print(x)** ou **x**
  O valor sera exibido na tela
  
  --Funções--
@@ -21,4 +21,4 @@ Para revelar o valor armazenado em "x":
  #função para arredondamento
  round(5,235,2) 
 
- Já a função *round()* possui dois parâmetros, o número que você quer arredondar e a quantidade de dígitos para arredondamento.
+ Já a função **round()** possui dois parâmetros, o número que você quer arredondar e a quantidade de dígitos para arredondamento.
