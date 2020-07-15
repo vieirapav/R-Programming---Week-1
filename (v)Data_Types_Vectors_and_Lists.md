@@ -1,0 +1,37 @@
+---Criando Vetores---
+A função "c ()" pode ser usada para criar vetores de objetos
+
+x <- c(0.5, 0.6) #numeric
+x <- c(TREU, FALSE) #logical
+x <- c(T, F) #logical
+x <- c("a", "b", "c") #character
+x <- 9:29 #integer
+x <- c(l+,0i, 2+4i) #complex
+
+Ao usar a função vector():
+x <- vector("numeric", length = 10)
+x [1] 0 0 0 0 0 0 0 0 0
+
+
+Se misturando diferentes tipos de objetos no vetor?
+  
+y <- c(1.7, "a") #character
+y <- c(True, 2) #numeric 
+y <- c("a", TRUE) #character 
+
+---Convertendo classe---
+  
+<- 0:6
+class(x)
+[1] "integer"
+
+as.numeric(x) #converte para numerico
+[1] 0 1 2 3 4 5 6
+
+as.logical(x) #converte para logico
+[1] FALSE TRUE TRUE TRUE TRUE TRUE TRUE
+
+as.character(x) #converte para caracter
+[1] "0" "1" "2" "3" "4" "5" "6"
+
+
