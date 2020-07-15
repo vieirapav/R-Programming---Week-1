@@ -34,4 +34,19 @@ as.logical(x) #converte para logico
 as.character(x) #converte para caracter
 [1] "0" "1" "2" "3" "4" "5" "6"
 
+---LISTAS---
+
+x <- list(1 ,"a", TRUE, 1 + 4i)
+x
+[[1]]
+[1] 1
+
+[[2]]
+[1] "a"
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] 1+4i
 
