@@ -14,7 +14,7 @@ foo bar norf
 [1] "foo" "bar" "norf"
 
 
-    ---Listas tambem recebem nome---
+    ---Listas recebe nome---
 
 #Exemplo de **lista** com nome:
     
@@ -29,7 +29,7 @@ $b
 $c
 [1] 3
 
-    ---Matrizes tambem recebem nome---
+    ---Matrizes recebe nome---
     
 #Exemplo de **matriz** com nome:
 
