@@ -14,12 +14,11 @@ Data frames podem ser criados chamando as funções **read.table**, **read.csv**
 > x <- data.frame(fOO = 1:4, BAR = c(T, T, F, F))
 
 > x
-
-##  fOO   BAR
-##1   1  TRUE
-##2   2  TRUE
-##3   3 FALSE
-##4   4 FALSE
+  fOO   BAR
+1   1  TRUE
+2   2  TRUE
+3   3 FALSE
+4   4 FALSE
 
 >nrow(x)
 [1] 4
