@@ -21,7 +21,7 @@ y <- c("a", TRUE) #character
 
 ---Convertendo classe---
   
-<- 0:6
+x <- 0:6
 class(x)
 [1] "integer"
 
