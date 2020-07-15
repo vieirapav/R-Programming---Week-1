@@ -36,7 +36,10 @@ as.character(x) #converte para caracter
 
 ---LISTAS---
 
+Dentro da lista é possivel colocar elementos de classes diferentes.
+
 x <- list(1 ,"a", TRUE, 1 + 4i)
+
 x
 [[1]]
 [1] 1
